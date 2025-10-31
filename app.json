@@ -1,0 +1,21 @@
+{
+  "name": "GlassiX-Mini",
+  "description": "Whatsapp Multi-Device Bot",
+  "repository": "https://github.com/nabeel0019/GlassiX-Mini",
+  "logo": "https://github.com/nabeel0019/GlassiX-Mini/blob/main/assets/logo.png",
+  "keywords": ["whatsapp", "bot", "nabeel0019", "baileys"],
+  "env": {
+    "GITHUN_TOKEN": {
+      "description": "Your Github Personal Access Token (PAT) with your repo permission",
+      "required": true
+    },
+    "GITHUB_REPO_OWNER": {
+      "description": "GitHub username or organization that owns the repository",
+      "required": true
+    },
+    "GITHUB_REPO_NAME": {
+      "description": "The name of the Github repository",
+      "required": true
+    }
+  }
+} 
